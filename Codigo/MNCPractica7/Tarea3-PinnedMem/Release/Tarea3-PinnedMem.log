@@ -1,0 +1,32 @@
+﻿Compilación iniciada a las 26/10/2015 21:04:32.
+     1>Proyecto "C:\Users\geco\Documents\Visual Studio 2013\Projects\MNCPractica7\Tarea3-PinnedMem\Tarea3-PinnedMem.vcxproj" en el nodo 3 (Build destinos).
+     1>AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DNDEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I. /FIcuda_runtime.h /c "C:\Users\geco\Documents\Visual Studio 2013\Projects\MNCPractica7\Tarea3-PinnedMem\pinnedMem.cu" 
+       CudaBuild:
+         Compiling CUDA source file pinnedMem.cu...
+         cmd.exe /C "C:\Users\geco\AppData\Local\Temp\tmp2bab7176f4524e96805094e09df9e407.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile -cudart static     -DWIN32 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD " -o Release\pinnedMem.cu.obj "C:\Users\geco\Documents\Visual Studio 2013\Projects\MNCPractica7\Tarea3-PinnedMem\pinnedMem.cu"
+         
+         C:\Users\geco\Documents\Visual Studio 2013\Projects\MNCPractica7\Tarea3-PinnedMem>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile -cudart static     -DWIN32 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD " -o Release\pinnedMem.cu.obj "C:\Users\geco\Documents\Visual Studio 2013\Projects\MNCPractica7\Tarea3-PinnedMem\pinnedMem.cu" 
+     1>C:/Users/geco/Documents/Visual Studio 2013/Projects/MNCPractica7/Tarea3-PinnedMem/pinnedMem.cu(36): warning : variable "status" was set but never used
+     1>C:/Users/geco/Documents/Visual Studio 2013/Projects/MNCPractica7/Tarea3-PinnedMem/pinnedMem.cu(36): warning : variable "status" was set but never used
+         pinnedMem.cu
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\geco\Documents\Visual Studio 2013\Projects\MNCPractica7\Release\Tarea3-PinnedMem.exe" /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\geco\Documents\Visual Studio 2013\Projects\MNCPractica7\Release\Tarea3-PinnedMem.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\geco\Documents\Visual Studio 2013\Projects\MNCPractica7\Release\Tarea3-PinnedMem.lib" /MACHINE:X86 /SAFESEH Release\pinnedMem.cu.obj
+         Release\eTimer.obj
+         Generando código
+         Generación de código finalizada
+         Tarea3-PinnedMem.vcxproj -> C:\Users\geco\Documents\Visual Studio 2013\Projects\MNCPractica7\Release\Tarea3-PinnedMem.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\geco\Documents\Visual Studio 2013\Projects\MNCPractica7\Release\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\geco\Documents\Visual Studio 2013\Projects\MNCPractica7\Release\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\geco\Documents\Visual Studio 2013\Projects\MNCPractica7\Release\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart32_75.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart64_75.dll
+                 2 archivo(s) copiado(s).
+     1>Compilación del proyecto terminada "C:\Users\geco\Documents\Visual Studio 2013\Projects\MNCPractica7\Tarea3-PinnedMem\Tarea3-PinnedMem.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:07.77
